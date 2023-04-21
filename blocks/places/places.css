@@ -1,0 +1,10 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 92px auto;
+  width: calc(984px - (1280px - min(100vw,1280px )) * (56 / 256));
+}
+

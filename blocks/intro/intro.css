@@ -1,0 +1,9 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 690px;
+  align-items: start;
+  margin-top: 92px;
+  /* мб паддинги надо будет переделать*/
+  margin-left: 148px;
+}

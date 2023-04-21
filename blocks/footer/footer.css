@@ -1,0 +1,7 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 96px);
+  margin: 92px auto 24px;
+  justify-content: space-between;
+}

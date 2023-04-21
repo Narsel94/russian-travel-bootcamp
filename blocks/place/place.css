@@ -1,0 +1,11 @@
+.place {
+  max-width: calc(984px - (1280px - min(100vw,1280px )) * (56 / 256));/*????*/
+  margin: 0 auto;
+  outline: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  outline: 1px solid blue;
+  
+}

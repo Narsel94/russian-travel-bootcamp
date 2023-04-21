@@ -1,0 +1,13 @@
+.place__content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+@media screen and (max-width: 320px) {
+
+  .place__content {
+    flex-direction: column;
+  }
+  
+}
