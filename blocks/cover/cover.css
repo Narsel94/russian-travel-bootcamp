@@ -36,7 +36,7 @@
   }  
 }
 
-@media (max-width :768px) {
+@media (max-width: 768px) {
   .cover {
     /* секция playces на 5 px больше*/ 
     margin-top: 85px;
