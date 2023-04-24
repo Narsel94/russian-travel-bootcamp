@@ -1,7 +1,7 @@
 .place__text {
   display: flex;
   flex-direction: column;
-  gap: 26px
+  gap: 26px;
 }
 
 @media (max-width:768px) {
