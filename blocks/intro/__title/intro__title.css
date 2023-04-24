@@ -6,3 +6,17 @@
   line-height: 58px;
   margin: 0;
 }
+
+@media (max-width: 600px) {
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+  }
+}
+
+@media (max-width: 400px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }  
+}

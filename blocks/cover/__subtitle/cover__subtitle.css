@@ -9,3 +9,17 @@
   margin: 0;
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .cover__subtitle {
+    width: calc(360px - (768px - min(768px, 100vw)) * ( 72/ 448));
+  }
+}
+
+
+@media (max-width: 455px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

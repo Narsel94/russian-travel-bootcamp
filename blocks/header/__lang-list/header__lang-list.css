@@ -7,13 +7,10 @@
   /*align-items: end;*/
   height:max-content;
   margin-top: 18px;
-
 }
 
 @media (max-width: 320px) {
   .header__lang-list {
     margin-top: 14px;
   }
-  
-  
 }

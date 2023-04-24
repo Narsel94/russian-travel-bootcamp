@@ -1,0 +1,28 @@
+.intro-wrapper {
+  width: calc(984px - (1280px - min(100vw,1280px )) * (56 / 256));
+  outline: 1px solid violet;
+  margin: 92px auto 0;
+  align-items: left;
+  display: none;
+}
+
+
+@media (max-width: 1024px) {
+  .intro-wrapper {
+    width: calc(928px - (1024px - min(1024px, 100vw)) * (208 / 256));
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-wrapper {
+    margin: 88px auto 0;
+    width: calc(720px - (768px - min(768px, 100vw)) * (432 / 448));
+    display: block;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro-wrapper {
+    margin-top: 64px;
+  }
+}

@@ -1,6 +1,6 @@
 .cover {
   position: relative;
-  background-image: url(../../images/photo-grid/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   box-sizing: border-box;
   background-repeat: no-repeat;
@@ -13,7 +13,6 @@
   width: calc(100% - 96px);
   height: calc(min(1184px, 100vw) * (10 / 16));
   margin: 92px auto 0;
-
 }
 
 .cover::before {
@@ -34,6 +33,12 @@
 @media screen and (max-width:1024px) {
   .cover {
     width: 100vw;
+  }  
+}
+
+@media (max-width :768px) {
+  .cover {
+    /* секция playces на 5 px больше*/ 
+    margin-top: 85px;
   }
-  
 }

@@ -7,7 +7,6 @@
   line-height: 28px;
   color: white;
   text-decoration: none;
-  
   text-align: right;
 }
 
@@ -15,10 +14,9 @@
   text-decoration: underline;
 }
 
-@media (max-widt: 320px) {
+@media (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
   }
-  
 }

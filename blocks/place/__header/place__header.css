@@ -1,16 +1,33 @@
 .place__header {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: baseline;
   align-items: end;
   gap: 40px;
+  width: 100%;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 1024px) {
+  .place__header {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__header {
+    gap: 28px;
+    width: calc(720px - (768px - min(768px, 100vw)) * (432 / 448));
+    margin: 0 auto;
+  }
+}
+
+
+
+@media (max-width: 450px) {
 
   .place__header {
     flex-direction: column;
     align-items: start;
+    gap: 32px;
   }
-  
 }

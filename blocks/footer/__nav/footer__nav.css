@@ -3,3 +3,10 @@
   flex-direction: row;
   gap: 18px;
 }
+
+@media (max-width: 560px) {
+  .footer__nav {
+    flex-direction: column;
+    gap:32px
+  }
+}

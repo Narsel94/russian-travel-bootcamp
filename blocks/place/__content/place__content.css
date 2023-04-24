@@ -2,12 +2,27 @@
   display: flex;
   flex-direction: row;
   gap: 40px;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 1200px) {
+  .place__content {
+    gap: 32px;
+  }
+}
 
+@media (max-width: 1023px) {
+  .place__content {
+    gap: 28px;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
   .place__content {
     flex-direction: column;
+    gap: 32px;
+    margin: 0 auto;
   }
-  
 }
