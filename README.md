@@ -23,4 +23,4 @@
 
 Проект был написан на чистых HTML и CSS.
 
-[Ссылка на репозиторий GitHub](https://github.com/Narsel94/russian-travel-bootcamp)
+[Ссылка на репозиторий GitHub](https://narsel94.github.io/russian-travel-bootcamp/)
