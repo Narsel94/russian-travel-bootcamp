@@ -2,3 +2,10 @@
   align-self: end;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .place__website {
+    margin: 0 auto;
+    width: calc(720px - (767px - min(767px, 100vw)) * (432 / 447));
+  }
+}
