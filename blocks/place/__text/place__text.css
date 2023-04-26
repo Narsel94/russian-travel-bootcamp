@@ -8,5 +8,6 @@
   .place__text {
     gap: 25px;
     margin: 0 auto;
+    width: calc(720px - (767px - min(767px, 100vw)) * (432 / 447));
   }
 }

@@ -1,44 +1,17 @@
 .cover {
-  position: relative;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  text-decoration: none;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: calc(100% - 96px);
-  height: calc(min(1184px, 100vw) * (10 / 16));
+  max-width: 1184px;
+  min-width: 320px;
   margin: 92px auto 0;
-}
-
-.cover::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #2A2C2F;
-  opacity: 0.2;
-}
-
-.cover:hover::before {
-  opacity: 0.8;
-}
-
-@media screen and (max-width:1024px) {
-  .cover {
-    width: 100vw;
-  }  
-}
+} 
 
 @media (max-width: 768px) {
   .cover {
-    /* секция playces на 5 px больше*/ 
-    margin-top: 85px;
+  margin-top: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    margin-top: 66px;
   }
 }

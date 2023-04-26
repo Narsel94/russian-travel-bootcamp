@@ -4,8 +4,7 @@
   list-style-type: none;
   display: flex;
   gap: 18px;
-  /*align-items: end;*/
-  height:max-content;
+  height: max-content;
   margin-top: 18px;
 }
 

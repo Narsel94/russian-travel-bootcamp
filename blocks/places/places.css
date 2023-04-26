@@ -1,13 +1,12 @@
 .places {
+  width: calc(984px - (1280px - min(100vw,1280px )) * (56 / 256));
+  margin: 92px auto 0;
+  justify-items: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 80px;
-  margin: 92px auto 0;
-  width: calc(984px - (1280px - min(100vw,1280px )) * (56 / 256));
 }
-
 
 @media (max-width: 1024px) {
   .places {
@@ -20,15 +19,14 @@
   .places {
     width: calc(720px - (768px - min(100vw, 768px)) * ( 400/448));
     margin: 88px auto 0;
-    gap: 73px;
+    gap: 72px;
   }
   
 }
 
 @media (max-width: 320px) {
   .places {
-    
     margin-top: 64px;
-    
+    gap: 50px;
   }
 }

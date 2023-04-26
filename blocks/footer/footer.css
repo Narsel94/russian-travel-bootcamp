@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   flex-direction: row;
-  width: calc(100% - 96px);
+  width: calc(1184px - (1280px - min(1280px, 100vw)));
   margin: 92px auto 24px;
   justify-content: space-between;
 }
@@ -15,10 +15,11 @@
 @media (max-width: 768px) {
   .footer {
     margin-top: 88px;
+    width: calc(720px - (768px - min(100vw, 768px)) * (534 / 448));
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 670px) {
   .footer {
     flex-direction: column;
     margin: 64px 16px 24px;

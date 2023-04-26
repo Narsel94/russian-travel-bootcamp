@@ -1,0 +1,9 @@
+.intro__article {
+  max-width: 690px;
+}
+
+@media (max-width: 768px) {
+  .intro__article {
+    width: 100%;
+  }
+}
