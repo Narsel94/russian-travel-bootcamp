@@ -32,6 +32,6 @@
 
 @media screen and (max-width: 1024px) {
   .cover__link {
-    min-height: calc(100vw * 10 / 16)
+    min-height: calc(100vw * 10 / 16);
   }  
 }
