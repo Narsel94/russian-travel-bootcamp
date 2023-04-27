@@ -2,8 +2,8 @@
   max-width: 690px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .intro__article {
-    width: 100%;
+    max-width: 100%;
   }
 }

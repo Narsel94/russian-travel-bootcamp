@@ -3,7 +3,7 @@
   flex-direction: column;
   width: calc(984px - (1280px - min(100vw,1280px )) * (56 / 256));
   margin: 92px auto 0;
-  align-items: left;  
+  align-items: flex-start;  
 }
 
 
@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .intro {
     margin-top: 64px;
   }

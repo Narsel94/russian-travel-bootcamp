@@ -13,7 +13,7 @@
   
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .header {
     width: calc(100% - 32px);
     margin-top: 16px;

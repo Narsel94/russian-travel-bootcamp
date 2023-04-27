@@ -8,7 +8,7 @@
   margin-top: 18px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .header__lang-list {
     margin-top: 14px;
   }

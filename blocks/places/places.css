@@ -8,21 +8,21 @@
   gap: 80px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .places {
     width: calc(928px - (1024px - min(100vw, 1024px)) * (208 / 256));
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .places {
-    width: calc(720px - (768px - min(100vw, 768px)) * ( 400/448));
+    width: 100%;
     margin: 88px auto 0;
-    gap: 72px;
+    gap: 73px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .places {
     margin-top: 64px;
     gap: 50px;

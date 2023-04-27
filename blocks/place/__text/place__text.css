@@ -4,10 +4,15 @@
   gap: 26px;
 }
 
-@media (max-width:768px) {
+@media (max-width:820px) {
   .place__text {
     gap: 25px;
     margin: 0 auto;
-    width: calc(720px - (767px - min(767px, 100vw)) * (432 / 447));
+  }
+}
+
+@media (max-width: 767px) {
+  .place__text {
+    width: calc(100% - 32px);
   }
 }

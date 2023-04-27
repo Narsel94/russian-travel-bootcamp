@@ -1,18 +1,4 @@
 .place__image {
-  width: calc(460px - (1280px - min(1280px, 100vw)) * (20 /256));
-  height: 100%;
+  width: 100%;
   object-fit: cover;
-}
-
-@media (max-width: 1024px) {
-  .place__image {
-    width: calc(440px - (1024px - min(1024px,100vw)) * (100/256));
-  }
-}
-
-@media (max-width: 768px) {
-  .place__image {
-    width: calc(340px - (768px - min(768px,100vw)) * (20/448));
-    margin: 0 auto;
-  }
 }
