@@ -11,6 +11,7 @@
 @media (max-width: 1023px) {
   .places {
     width: calc(928px - (1024px - min(100vw, 1024px)) * (208 / 256));
+    gap: 73px;
   }
 }
 
@@ -18,7 +19,6 @@
   .places {
     width: 100%;
     margin: 88px auto 0;
-    gap: 73px;
   }
 }
 
